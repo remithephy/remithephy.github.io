@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>20220912 | 雷米的学习记录</title>
+
+  <!-- keywords -->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="动理学1.1 动理学： 刘维尔定理：  空间中的f数量的变化可以写成 散度（vf），净流出（要求divv*. &#x3D; 0），意思是r空间中考虑速度在各方向*流出的f，v空间中考虑加速度 对莫托维奇分布使用，有  对它的每一项，求平均分别由在时间上和空间上的平均（下面没写）     结果得到  在等离子体中 一般为  右侧碰撞项基本可忽略 ，对于两体相互作用 考虑N的涨落，有  等式左端表明时刻𝑡在一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="20220912">
+<meta property="og:url" content="http://example.com/2022/09/12/20220329%20-%20%E5%89%AF%E6%9C%AC/index.html">
+<meta property="og:site_name" content="雷米的学习记录">
+<meta property="og:description" content="动理学1.1 动理学： 刘维尔定理：  空间中的f数量的变化可以写成 散度（vf），净流出（要求divv*. &#x3D; 0），意思是r空间中考虑速度在各方向*流出的f，v空间中考虑加速度 对莫托维奇分布使用，有  对它的每一项，求平均分别由在时间上和空间上的平均（下面没写）     结果得到  在等离子体中 一般为  右侧碰撞项基本可忽略 ，对于两体相互作用 考虑N的涨落，有  等式左端表明时刻𝑡在一">
+<meta property="og:locale">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1539bd39-ff4d-4f23-a6f5-b33d97ab2cde/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc1f84cb-5fe0-4dce-839a-8494767724dc/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/803acf04-0bb3-4e05-bfd4-82880420dc56/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/772ea36d-9dc5-45b1-ba1c-7d945ec082bd/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3774e16-f9fa-455b-889f-caf3e16ca318/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02e5e07f-524e-439e-b5da-b2e4077b8b6e/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddeed4c5-8018-4bc6-90f9-809612ddd613/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa74511a-ae28-4308-a0c2-8bbeef36add2/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07404914-2ceb-4eca-b0a4-e7c6046ee8ff/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c19fa8d9-3b2e-4b08-bd93-c31dcfedcf51/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcbacfce-3678-4e8f-a14d-a4d5f015d897/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6dc2cbc-a01b-4aeb-ac97-61be51d885b5/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58d5f9de-8cb1-46ff-9e83-56102cbf9655/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/08d138b7-40d5-4732-bdcc-9bae7d4ff739/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d74938df-71a2-4d26-a244-dcf816552e19/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b75332e-ca77-4362-99bf-975c1423b648/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a14ca1c-0c22-455e-8e3a-944f43040763/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8b12761-b6e8-4688-8763-75beba53eaf1/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c69c47a5-c1b0-490b-b3c6-9c3407ec467b/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/330459bf-527c-4f15-bdad-37106968235f/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d6a7a99-3760-46df-beac-425ffd5fc119/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2f5f941-811c-4d90-a7b4-7ef8ea1852ef/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d609175-1eab-4579-b47c-959614bdbc53/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d004a9d4-c7d4-4467-a58e-34459726e4ee/Untitled.png">
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1060e1e6-e8b4-4b9a-8768-265e81f580ad/Untitled.png">
+<meta property="article:published_time" content="2022-09-12T03:15:03.000Z">
+<meta property="article:modified_time" content="2022-09-25T09:35:12.813Z">
+<meta property="article:author" content="remi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1539bd39-ff4d-4f23-a6f5-b33d97ab2cde/Untitled.png">
+  
+    <link rel="alternative" href="/atom.xml" title="雷米的学习记录" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+
+  
+<script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
+
+  
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body>
+  <div id="container">
+    <div id="particles-js"></div>
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+				<img lazy-src="img/avatar.jpeg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+			<h1 class="header-author"><a href="/">remi</a></h1>
+		</hgroup>
+
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">笔记</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="half-header-menu">
+						<a class="hide">Home</a>
+						<a>Tags</a>
+						<a>Links</a>
+						<a>About</a>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/remithephy" title="github">github</a>
+					        
+						</div>
+						<!-- music -->
+						
+							<!-- <div style="position: absolute; bottom: 120px; left: auto; width: 85%;"> -->
+							<div style="position: absolute; left: auto; width: 85%;">
+								<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=86 src="//music.163.com/outchain/player?type=2&id=&auto=1&height=66"></iframe>
+							</div>
+						
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/">嘤嘤</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">没啥好写的.</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide"></h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="img/avatar.jpeg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author"></h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">笔记</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/remithephy" title="github">github</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-20220329 - 副本" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2022/09/12/20220329%20-%20%E5%89%AF%E6%9C%AC/" class="article-date">
+  	<time datetime="2022-09-12T03:15:03.000Z" itemprop="datePublished">2022-09-12</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      20220912
+      
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/plsma/">plsma</a>
+	</div>
+
+
+        
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="动理学"><a href="#动理学" class="headerlink" title="动理学"></a>动理学</h1><p>1.1</p>
+<p>动理学：</p>
+<p>刘维尔定理：</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1539bd39-ff4d-4f23-a6f5-b33d97ab2cde/Untitled.png" alt="Untitled"></p>
+<p>空间中的f数量的变化可以写成 散度（vf），净流出（要求divv*. = 0），意思是r空间中考虑速度在各方向*流出的f，v空间中考虑加速度</p>
+<p>对莫托维奇分布使用，有</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc1f84cb-5fe0-4dce-839a-8494767724dc/Untitled.png" alt="Untitled"></p>
+<p>对它的每一项，求平均分别由在时间上和空间上的平均（下面没写）</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/803acf04-0bb3-4e05-bfd4-82880420dc56/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/772ea36d-9dc5-45b1-ba1c-7d945ec082bd/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3774e16-f9fa-455b-889f-caf3e16ca318/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02e5e07f-524e-439e-b5da-b2e4077b8b6e/Untitled.png" alt="Untitled"></p>
+<p>结果得到</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddeed4c5-8018-4bc6-90f9-809612ddd613/Untitled.png" alt="Untitled"></p>
+<p>在等离子体中 一般为</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa74511a-ae28-4308-a0c2-8bbeef36add2/Untitled.png" alt="Untitled"></p>
+<p>右侧碰撞项基本可忽略</p>
+<p>，对于两体相互作用</p>
+<p>考虑N的涨落，有</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07404914-2ceb-4eca-b0a4-e7c6046ee8ff/Untitled.png" alt="Untitled"></p>
+<p>等式左端表明时刻𝑡在一个第𝑗类粒子位于点𝑋1条件下, 在相空间点𝑋发现一个第𝑘类粒子的平均几率, 等式右端𝑓𝑘(𝑋, 𝑡)是时刻𝑡在一个第𝑘类粒子在相空间点𝑋的几率。</p>
+<p>考虑到可帮相互作用，ckj的涨落项可表示为</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c19fa8d9-3b2e-4b08-bd93-c31dcfedcf51/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcbacfce-3678-4e8f-a14d-a4d5f015d897/Untitled.png" alt="Untitled"></p>
+<h3 id="1-2流体"><a href="#1-2流体" class="headerlink" title="1.2流体"></a>1.2流体</h3><p>对于流体粒子的质量密度  肉 = mn（r，t）</p>
+<p>定义速度矩</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6dc2cbc-a01b-4aeb-ac97-61be51d885b5/Untitled.png" alt="Untitled"></p>
+<p>一般来说</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58d5f9de-8cb1-46ff-9e83-56102cbf9655/Untitled.png" alt="Untitled"></p>
+<p>具有物理意义</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/08d138b7-40d5-4732-bdcc-9bae7d4ff739/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d74938df-71a2-4d26-a244-dcf816552e19/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b75332e-ca77-4362-99bf-975c1423b648/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a14ca1c-0c22-455e-8e3a-944f43040763/Untitled.png" alt="Untitled"></p>
+<p>对动理学方程分别计算其0，1，2阶矩</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8b12761-b6e8-4688-8763-75beba53eaf1/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c69c47a5-c1b0-490b-b3c6-9c3407ec467b/Untitled.png" alt="Untitled"></p>
+<p>…等等，能分别得到连续性方程</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/330459bf-527c-4f15-bdad-37106968235f/Untitled.png" alt="Untitled"></p>
+<p>动量守恒</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d6a7a99-3760-46df-beac-425ffd5fc119/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2f5f941-811c-4d90-a7b4-7ef8ea1852ef/Untitled.png" alt="Untitled"></p>
+<p>在考虑温度、分布‘能量流’以及各种近似的情况下，可以最终得到能量流输运方程</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d609175-1eab-4579-b47c-959614bdbc53/Untitled.png" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d004a9d4-c7d4-4467-a58e-34459726e4ee/Untitled.png" alt="Untitled"></p>
+<p>值得注意的是</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1060e1e6-e8b4-4b9a-8768-265e81f580ad/Untitled.png" alt="Untitled"></p>
+<p>称为压强张量，表示为不同速度的粒子在加速度f情况下对空间的碰撞。</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/09/01/20220224/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">20220901</div>
+      <strong class="article-nav-caption">&gt;</strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+      <div class="footer-left">
+        &copy; 2022 remi
+      </div>
+        <div class="footer-right">
+          Support by <a href="http://hexo.io/" target="_blank">Hexo</a>   
+        </div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: false,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
